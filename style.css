@@ -335,21 +335,21 @@ p {
   resize: none;
   height: 200px;
 }
-::placeholder{
+::placeholder {
   color: var(--black);
 }
-.contact .contactForm .row2 input[type="submit"]{
+.contact .contactForm .row2 input[type="submit"] {
   background: var(--white);
   color: var(--black);
   border: 2px solid var(--black);
-  cursor:pointer;
+  cursor: pointer;
 }
-.contact .contactForm .row2 input[type="submit"]:hover{
+.contact .contactForm .row2 input[type="submit"]:hover {
   background: var(--black);
   color: var(--white);
 }
 
-footer{
+footer {
   display: flex;
   padding: 100px;
   justify-content: center;
@@ -358,14 +358,13 @@ footer{
   background: #f8f8f8;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
-footer .footerMenu{
+footer .footerMenu {
   display: flex;
 }
-footer .footerMenu li{
+footer .footerMenu li {
   list-style: none;
-
 }
-footer .footerMenu li a{
+footer .footerMenu li a {
   display: inline-block;
   text-decoration: none;
   margin: 20px;
@@ -373,44 +372,44 @@ footer .footerMenu li a{
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-.copyrightText{
+.copyrightText {
   color: var(--black);
   text-align: center;
   letter-spacing: 1px;
 }
 
-
 /* For Responsive */
-@media (max-width: 991px){
-  header{
+@media (max-width: 991px) {
+  header {
     padding: 20px 20px;
   }
-  header.sticky{
+  header.sticky {
     padding: 10px 20px;
   }
-  section{
+  section {
     padding: 20px;
   }
-  .banner .contentBx{
+  .banner .contentBx {
     padding: 40px 30px;
+    margin: 0px 30px;
   }
-  .books .contentBx{
+  .books .contentBx {
     grid-template-columns: repeat(1, 1fr);
   }
-  .posts .contentBx{
+  .posts .contentBx {
     grid-template-columns: repeat(1, 1fr);
   }
   .posts .contentBx .postColumn .postBox,
-  .posts .contentBx .postColumn .postBox.extraHeight{
+  .posts .contentBx .postColumn .postBox.extraHeight {
     height: 300px;
   }
-  .contact .contactForm .row{
+  .contact .contactForm .row {
     grid-template-columns: repeat(1, 1fr);
   }
-  footer{
+  footer {
     padding: 40px 20px;
   }
-  footer .footerMenu{
+  footer .footerMenu {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -418,12 +417,12 @@ footer .footerMenu li a{
     margin: 20px 0;
   }
   footer .footerMenu li a {
-    margin: 5px 0;    
+    margin: 5px 0;
   }
-  .title{
+  .title {
     padding-top: 50px;
   }
-  .mgt{
+  .mgt {
     margin-top: 0px;
   }
 }
