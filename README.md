@@ -1,4 +1,4 @@
 # BLOG_WEBSITE
 
 
-Deployment Url => bookblogs.netlify.app
+Deployment Url => https://bookblogs.netlify.app
